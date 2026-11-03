@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>combinators</title>
+        <style>
+            /*div h1{
+                background-color: lightgray;
+                color: yellow;
+                font-size: 24px;
+                font-style: italic;
+            }*/
+            div > h1{
+                background-color: lightblue;
+                color: black;
+                font-size: 24px;
+                font-style: italic;
+            }
+            h1+p{
+                background-color: lightcoral;
+                color: black;
+                font-size: 24px;
+                font-style: italic;
+            }
+            h1~p{
+                background-color: lightgreen;
+                color: black;
+                font-size: 24px;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>this is heading1 using the child combinator</h1>
+            <h1>this is heading2 using the child combinator</h1>
+            <p>paragraph</p>
+            <div>
+                <h1>this is heading3 using the child combinator</h1>
+                <h1>this is heading4 using the child combinator</h1>
+                <p>paragraph1</p>
+            </div>
+        </div>
+        <p>this is para1</p>
+    </body>
+</html>

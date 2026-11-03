@@ -1,0 +1,69 @@
+/*getting an element by using tag name*/
+h2 {
+    color: blue;
+    text-align: center;
+    background-color: lightgray;
+    }
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    background-color: lightyellow;
+    }
+
+/*getting element by using id and class name*/
+/*getting id element using (#) and class element using (.) */
+#heading {
+    color: red;
+    text-align: center;
+    background-color: lightblue;
+    }
+.para{
+    color: green;
+    background-color: lightgreen;
+}
+/* same element using id and class id will have more priority than class  */
+#para{
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    background-color: lightyellow;
+}
+
+
+
+/*getting element uusing universal selector (*) */
+*{
+    background-color: lightgray;
+    color: black;
+    font-style: italic;
+}
+
+/*combinator selectors
+desendent selector sre used to select the element which is inside the parent element
+*/
+div h1{
+    color: blue;
+    text-align: center;
+    background-color: lightgray;
+    }
+
+    /*child selector is used to select the element which is direct child of the parent element using (>)*/
+div > h1{
+    color: red;
+    text-align: center;
+    background-color: lightyellow;
+}
+
+/*adjacent sibling selector is used to select the element which is next to the previous element using (+)*/
+/*h1 + p{
+    color: green;
+    background-color: lightblue;
+}
+
+/*general sibling selector is used to select the element which is next to the previous element using (~)*/
+p ~h2{
+    color: yellow;
+    text-align: center;
+    background-color: lightgray;
+}

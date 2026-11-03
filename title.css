@@ -1,0 +1,45 @@
+/* apply styles to the all title element */
+/*[title]{
+    color:green;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+/*apply style to the only starting with heading*/
+[title^="heading"]{
+    color:blue;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*apply style to the only ending with 2 */
+[title$="2"]{
+    color:red;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/*apply style to the only containing heading*/
+[title*="heading"]{
+    color:green;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/*apply style to the only containing is*/
+[title~="is"]{
+    color:blue;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*apply style to the only starting with heading*/
+
+[title|="heading"]{
+    color:red;
+    text-align: center;
+    font-size: 24px;
+}

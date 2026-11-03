@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+body{
+    background-color: lightyellow;
+    margin: 20px;
+}
