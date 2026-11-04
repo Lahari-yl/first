@@ -1,0 +1,24 @@
+.card{
+    height: 470px;
+    width: 250px;
+    background-color: aliceblue;
+    border: 5px solid cornflowerblue;
+    border-radius: 20px;
+}
+.header,.footer{
+    background-color: blue;
+    color:white;
+    font-style: oblique;
+    border: 5px solid black;
+}
+.photo img{
+    height: 80px;
+    width: 80px;
+    border:5 px solid blue;
+    border-radius: 50%;
+    justify-content: center;
+}
+.details{
+    padding: 10px;
+    font-style: oblique;
+}

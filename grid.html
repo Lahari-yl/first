@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>box</title>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(3,1fr);
+                background-color: aquamarine;
+                column-gap: 10px;
+                row-gap: 20px;
+                height: 300px;
+                width:600px;
+                margin: 5px solid green;
+
+            }
+            .box1{
+                background-color: aqua;
+                text-align: center;
+                margin: 10px black;
+                border:5px solid black
+            }
+            .box2{
+                background-color: cadetblue;
+                text-align: center;
+                margin: 20px black;
+                border: 5px solid black;
+            }
+            .box3{
+                background-color: rgb(19, 177, 177);
+                text-align: center;
+                border: 5px solid black;
+            }
+            .box4{
+                background-color: blue;
+                grid-column: span 2;
+                text-align: center;
+                border: 5px solid black;
+            }
+            .box5{
+                background-color:red;
+                grid-row: span 2;
+                text-align: center;
+                border: 5px solid black;
+            }
+            .box6{
+                background-color: chocolate;
+                grid-column: span 2;
+                text-align: center;
+                border: 5px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box1">one</div>
+            <div class="box2">two</div>
+            <div class="box3">three</div>
+            <div class="box4">four</div>
+            <div class="box5">five </div>
+            <div class="box6">six</div>
+        </div>
+        
+    </body>
+</html>

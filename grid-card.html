@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid-card</title>
+        <style>
+            .card{
+                background-color: aquamarine;
+                height: 500px;
+                width: 200;
+                display: grid;
+                grid-template-rows:repeat(4,1fr);
+                grid-template-columns: repeat((3,1fr));
+                border: 2px solid black;
+                grid-gap: 5px;
+            }
+            .head,.footer{
+                background-color: blue;
+                color: aliceblue;
+                font-family:'Courier New', Courier, monospace;
+                grid-column: 1/4;
+                text-align: center;
+                font-size: large;
+            }
+            .bodyL{
+                display: grid;
+                grid-template-columns:repeat(3,1fr) ;
+                border: 2px solid black;
+                grid-column: 1/4;
+                grid-row: 2/4;
+                
+            }
+            .L{
+                background-color: bisque;
+                text-align: center;
+                border: 2px solid black;
+                grid-column:1/2;
+            }
+            .R{
+                text-align: center;
+                border: 2px solid black;
+                grid-template-columns: 2fr;
+                grid-column: 2/4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <div class="head">
+                <p>HEADER</p>
+            </div>
+            <div class="bodyL">
+                <div class="L">
+                    <p>this is left body</p>
+                </div>
+                <div class="R">
+                    <p>this id right body</p>
+                </div>
+            </div>
+            <div class="footer">
+                <p>FOOTER</p>
+            </div>
+        </div>
+    </body>
+</html>

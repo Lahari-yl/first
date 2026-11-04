@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex box</title>
+        <style>
+            body{
+                background-color: #83ed7f;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .card {
+                    width: 600px;
+                    padding: 20px;
+                    margin: 50px auto;
+                    background-color: white;
+                    border-radius: 15px;
+                    box-shadow: 0 4px 10px gray;
+
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 15px;
+                }
+                .box1 { background-color: lightblue;border: 2px solid black; }
+                .box2 { background-color: lightcoral; border: 2px solid black; }
+                .box3 { background-color: lightgreen; border: 2px solid black; }
+                .box4 { background-color: lightyellow; border: 2px solid black; }
+                .box5 { background-color: lightpink; border: 2px solid black; }
+                .box6 { background-color: lightsalmon; border: 2px solid black; }
+                .box4{
+                    grid-column: span 1;
+                }
+                .box5{
+                    grid-column: span 1;
+                }
+                .box6{
+                    grid-column: span 3;
+                }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <div class="box box1">one</div>
+            <div class="box box2">two</div>
+            <div class="box box3">three</div>
+
+            <div class="box box4">four</div>
+            <div class="box box5">five</div>
+
+            <div class="box box6">six</div>
+        </div>
+    </body>
+</html>

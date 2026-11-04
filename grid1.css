@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap: 15px;
+    height: 300px;
+    width: 600px;
+}
+
+.box {
+    background-color: skyblue;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+.box1{
+    background-color: rgb(55, 148, 229);
+    text-align: center;
+    grid-column: span 2;
+    border:2px solid black;
+}
+.box2{
+    background-color: aquamarine;
+    grid-column: span 3;
+    border: 2px solid black;
+    text-align: center;
+}
+.box3{
+    background-color: bisque;
+    grid-column: span 1;
+    text-align: center;
+    border:2px solid black
+}

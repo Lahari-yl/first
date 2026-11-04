@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grouping</title>
+        <style>
+        /*grouping selectors are used to select the group of elements that is tagname,id,class */
+            p,#id,.cls{
+                background-color: aquamarine;
+                color: black;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            /*individual element access will take the high priority */
+            p{
+                background-color: blueviolet;
+            }
+            .cls{
+                background-color: brown;
+            }
+            #id{
+                background-color: cadetblue;
+            }
+            .d1{
+                background-color: chocolate;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>this is paragraph</p>
+            <h1 id="id" class="d1">heading</h1>
+            <h2 class="cls">class</h2>
+        </div>
+    </body>
+</html>
