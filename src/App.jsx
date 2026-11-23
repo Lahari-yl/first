@@ -1,9 +1,9 @@
 
-import HApp from "./Higher oreder component/SApp";
+import AppRouter from "./recat-router/Approuter";
 function App(){
   return(
     <>
-    <HApp/>
+    <AppRouter/>
     </>
   )
 }
