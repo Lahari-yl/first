@@ -1,13 +1,11 @@
 
-import Api from "./useeffect/API fetching";
-import DApp from "./useeffect/dependency";
-import HApp from "./useeffect/homeapp";
-import SApp from "./useeffect/setintervel";
-import SetApp from "./useeffect/settimeout";
+import Number from "./rendering/number";
+import Student from "./rendering/student-marks";
+
 function App(){
   return(
     <>
-    <DApp/>
+    <Student/>
     </>
   )
 }
