@@ -1,11 +1,12 @@
 
-import Number from "./rendering/number";
-import Student from "./rendering/student-marks";
+import HOCApp from "./recounciliation/HOCApp";
+import Input from "./recounciliation/input-focus";
+import Product from "./recounciliation/product";
 
 function App(){
   return(
     <>
-    <Student/>
+    <HOCApp/>
     </>
   )
 }
